@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+   line-height: 1.8;
+   color: #000000;
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1.1rem;
+}
+
+h1, h2{
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #11245A;
+   font-size: 3rem;
+   margin: 3rem 3rem;
+}
+
+h3{
+    font-weight: 600;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #0096aa;
+}
+
+h4{
+    color: #898fa1;
+    font-size: 1.5rem;
+}
+
+a {
+   font-weight: 700;
+   transition: all 0.4s ease;
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+small {
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.navbar {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #11245A !important;
+}
+.navbar .nav-link {
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: #E93B81;
+}
+
+#home {
+   background: linear-gradient(rgba(255, 187, 99, 0.8), rgb(68, 112, 255));
+   min-height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   display: flex;
+   align-items: center;
+    color: #000000;
+}
+
+#home h1 {
+   font-weight: 700;
+}
+
+#home p {
+   max-width: 550px;
+   margin: 18px auto;
+}
+
+.btn {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+   font-weight: 700;
+   font-size: 1.5rem;
+   text-transform: uppercase;
+   padding: 12px 28px;
+   border-radius: 0;
+
+}
+
+.btn-brand {
+   background-color: #140d53;
+   border-radius: 10px;
+   color: #fff;
+}
+
+.btn-brand:hover {
+    transition: all .2s ease;
+   background-color: #2f4cce;
+   color: #fff;
+}
+
+.section-intro {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.section-intro .hline {
+   width: 120px;
+   height: 2px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin: 16px auto 0 auto;
+}
+
+.icon-box {
+   width: 60px;
+   height: 60px;
+   background-color: #E93B81;
+   color: #fff;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 32px;
+   flex: none;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+span{
+    color: #ce2f6e;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.text{
+    margin-top: 5%;
+}
+
+.con-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+
+form .form-control {
+   border-radius: 0;
+}
+
+form .form-control:focus {
+   box-shadow: none;
+   border-color: #E93B81;
+}
+
+#cta {
+   background-color: #E93B81;
+}
+
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: #898fa1;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #E93B81;
+}
