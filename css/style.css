@@ -8,6 +8,7 @@ body {
    font-size: 1.1rem;
 }
 
+
 h1, h2{
    font-weight: 700;
    letter-spacing: 1px;
@@ -36,14 +37,7 @@ a {
 }
 
 img {
-   width: 100%;
-}
-
-small {
-   font-size: 12px;
-   letter-spacing: 2px;
-   font-weight: 700;
-   text-transform: uppercase;
+   width: 120%;
 }
 
 section {
@@ -64,6 +58,7 @@ section {
    font-size: 12px;
    text-transform: uppercase;
    letter-spacing: 1px;
+   font-weight: 700;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -138,6 +133,10 @@ section {
    flex: none;
 }
 
+.container-md{
+   margin-top: -10%;
+}
+
 ul{
     list-style: none;
     font-size: 1.1rem;
@@ -160,20 +159,9 @@ span{
     margin-top: -100px;
 }
 
-
-form .form-control {
-   border-radius: 0;
-}
-
-form .form-control:focus {
-   box-shadow: none;
-   border-color: #E93B81;
-}
-
 #cta {
    background-color: #E93B81;
 }
-
 
 .footer-top {
    padding-top: 80px;
@@ -183,24 +171,4 @@ form .form-control:focus {
 .footer-bottom {
    padding-top: 30px;
    padding-bottom: 30px;
-   border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-footer .footer-links a,
-footer .social-icons a {
-   color: #898fa1;
-}
-
-footer .social-icons a {
-   font-size: 24px;
-}
-
-footer .footer-links a {
-   display: block;
-   font-weight: 400;
-}
-
-footer .social-icons a:hover,
-footer .footer-links a:hover {
-   color: #E93B81;
 }
