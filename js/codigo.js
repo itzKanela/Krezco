@@ -48,5 +48,3 @@ document.getElementById("panel").onclick = function (){
     panel1();
 }
 
-
-
