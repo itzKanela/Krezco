@@ -51,6 +51,12 @@ a {
    margin-left: -5%;
 }
 
+.img3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .nos{
    display: flex;
    justify-content: center;
@@ -97,7 +103,7 @@ a {
    width: 120px;
    height: 2px;
    background-color: rgba(0, 0, 0, 0.1);
-   margin: 16px auto 0 auto;
+   margin: auto auto 20px auto;
 }
 
 ul{
@@ -120,7 +126,8 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
+    margin-top: 0;
+    padding-bottom: 3%;
 }
 
 #cta {
@@ -138,8 +145,23 @@ span{
 }
 
 
-@media (min-width: 1000px) {
-   .carousel-item{
-      background-image: url(img\fd-lg.png);
+@media (max-width: 480px) {
+   h1, h2{
+      font-size: 2em;
+   }
+   p, li {
+      font-size: medium;
+   }
+   .img2 {
+      width: 100%;
+   }
+   .cta{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .btn12{
+      font-size: 1rem;
    }
 }
